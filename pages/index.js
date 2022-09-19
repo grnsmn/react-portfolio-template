@@ -10,7 +10,8 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
-
+import React from "react";
+import { InlineWidget } from "react-calendly";
 // Local Data
 import data from "../data/portfolio.json";
 
@@ -139,6 +140,8 @@ export default function Home() {
             </Link>
           </div>
         )}
+       
+          <InlineWidget url="https://calendly.com/testportfoliointegration/30min" />
         <Footer />
       </div>
     </div>
