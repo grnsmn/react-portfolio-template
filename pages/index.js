@@ -54,6 +54,7 @@ export default function Home() {
       <Cursor />
       <Head>
         <title>{data.name}</title>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
 
       <div className="gradient-circle"></div>
